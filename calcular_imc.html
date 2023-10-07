@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javascript/imc.js"></script>
+    <link rel="stylesheet" href="./css/menu2.css">
+    <title>Document</title>
+</head>
+<body>
+  <center>
+    <div id="div_menu2_main">
+      <div class="div_menu2"><label>Altura en cm (ej: 155) </label><input id="txt_altura" type="number"></div><br>
+      <div class="div_menu2"><label>Peso en kg (ej: 80) </label><input id="txt_peso" type="number"></div><br>
+      <div class="div_menu2"><label>Edad (ej: 45) </label><input id="txt_edad" type="number"></div><br>
+      <div class="div_menu2"><label>Sexo </label><select id="cmb_sexo"></div><br>
+        <option value="H">Hombre</option>
+        <option value="M">Mujer</option>
+        <option value="O">Otro</option>
+      </select>
+      <div id="div_menu2_rta"><button onclick="calcular()">Calcular IMC</button></div>
+      <label id="lbl_rta" style="display: none;"></label>
+    </div>  
+  </center>
+</body>
+</html>

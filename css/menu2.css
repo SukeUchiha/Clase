@@ -1,0 +1,20 @@
+#div_menu2_main{
+    background-color: black;
+    border-radius: 5%;
+    font-size: large;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+}
+
+.div_menu2{    
+    width: 100%;
+    padding-top: 2%;
+}
+
+#div_menu2_rta{    
+    width: 100%;
+    padding: 2%;
+    border-radius: 5%;
+    margin: 2%;
+}
